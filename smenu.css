@@ -1,0 +1,167 @@
+html {
+    width: 100%; 
+    height: 100%; 
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%; 
+    height: 100%;  
+    margin: 0; 
+    background-color: rgb(37, 42, 52);
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+}
+
+.container {
+    width: 100%; 
+    height: 90%; 
+    background-color: rgb(250, 243, 224);
+    text-align: center;
+    border-radius: 20px;
+    display: block;
+    overflow-y:auto
+}
+
+.title {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 26px;
+}
+
+.input-box {
+    width: 8%;
+    min-width: 80px;
+}
+
+.logout-menu-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.input-box button, .option-box button, .form-box button {
+    background-color: rgb(182, 137, 115);
+    border: none;
+    outline: none;
+    width: 80%;
+    border-radius: 20px;
+    padding: 10px 5px 10px 5px;
+}
+
+.input-box button:hover,.option-box button:hover,.form-box button:hover {
+    background-color: rgb(234, 191, 159);
+}
+
+.nr-option-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.poll-box {
+    width: 30%;
+}
+
+.option-box input,.option-box button,.poll-box input,.form-box button {
+    margin-top: 10px;
+    width: 51%;
+}
+
+.option-box input,.poll-box input {
+    outline: none;
+    border: none;
+    padding: 4px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.option-box input:focus ,.poll-box input:focus {
+    background-color: rgb(234, 191, 159);
+}
+
+.container-form-box {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box {
+    width: 80%;
+    height: 100%;
+    display: flex; 
+}
+
+.poll-box {
+    overflow-y: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-item {
+    width: 70%;
+    margin: 5px 0px 5px 0px;
+    text-align: center;
+}
+
+.maindiv {
+    width: 100%;
+    height: 70%;
+    display:inline-flex;
+    margin-top: 10px;
+}
+
+.scroll{
+    width: 18%;
+    height: 100%;
+    background-color: rgb(250, 243, 224);
+    overflow-y: auto;
+    text-align: center;
+}
+
+.statistics{
+    width: 82%;
+    height: 100%;
+    background-color: rgb(250, 243, 224);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statistics-poll {
+    width: 50%;
+    height: 100%;
+    overflow-y: auto;
+    background-color: rgb(250, 243, 224);
+}
+
+.pool-link {
+    text-decoration: none;
+    color: black;
+}
+
+.pool-link p {
+    margin: 0;
+}
+
+.poll-div {
+    color: black;
+    background-color: rgb(182, 137, 115);
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+.poll-div:hover {
+    background-color: rgb(234, 191, 159);
+}
+
+
+.poll-box input {
+    cursor: pointer;
+}
